@@ -19,4 +19,6 @@ from . import views
 
 urlpatterns = [
     path('', views.app , name="app"),
+    path("contact" , views.con , name="con"),
+    path("add" , views.add , name="add"),
 ]
